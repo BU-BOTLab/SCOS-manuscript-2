@@ -1,13 +1,13 @@
 # SCOS-manuscript-2
 
-This repository contains the data and codes needed to replicate the results in our recent paper using SCOS to estimate blood pressure. 
+This repository contains the data and codes needed to replicate the results in our recent paper using SCOS to estimate blood pressure. <br/>
 
-Codes:
-'five_fold_CV_BP_estimation_manuscript' predicts BP from original 30 subjects using 5 fold cross validation (manuscript figure 2) 
-'longitudinal_BP_estimation_manuscript' predicts BP for 20 subject measuremed several weeks after first measurement (manuscript figure 3)
-'BP_avg' - function to average predicted BP
-'error_comp'- function to compile errors into table and save
-'feat_selection_manuscript' - function to select features 
+Codes:<br/>
+'five_fold_CV_BP_estimation_manuscript' predicts BP from original 30 subjects using 5 fold cross validation (manuscript figure 2) <br/>
+'longitudinal_BP_estimation_manuscript' predicts BP for 20 subject measuremed several weeks after first measurement (manuscript figure 3)<br/>
+'BP_avg' - function to average predicted BP<br/>
+'error_comp'- function to compile errors into table and save<br/>
+'feat_selection_manuscript' - function to select features <br/>
 
 Data:
 'all_subj_features_all_loc_incl_nan' - BFi + PPG features for 30 original subjects (5 fold CV)
