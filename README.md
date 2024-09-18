@@ -9,32 +9,32 @@ Codes:<br/>
 'error_comp'- function to compile errors into table and save<br/>
 'feat_selection_manuscript' - function to select features <br/>
 
-Data:
-'all_subj_features_all_loc_incl_nan' - BFi + PPG features for 30 original subjects (5 fold CV)
-'all_subj_features_all_loc_incl_nan_PPG' - PPG features for 30 original subjects (5 fold CV)
-'all_subj_features_cold' - BFi + PPG features for 5 cold pressor subjects (5 fold CV)
-'all_subj_features_cold_PPG' - PPG features for 5 cold pressor subjects (5 fold CV)
-'all_subj_features_R'- BFi + PPG features for 20 repeat subjects (longitudinal measurement)
-'all_subj_features_R_PPG'- PPG features for 20 repeat subjects (longitudinal measurement)
+Data:<br/>
+'all_subj_features_all_loc_incl_nan' - BFi + PPG features for 30 original subjects (5 fold CV)<br/>
+'all_subj_features_all_loc_incl_nan_PPG' - PPG features for 30 original subjects (5 fold CV)<br/>
+'all_subj_features_cold' - BFi + PPG features for 5 cold pressor subjects (5 fold CV)<br/>
+'all_subj_features_cold_PPG' - PPG features for 5 cold pressor subjects (5 fold CV)<br/>
+'all_subj_features_R'- BFi + PPG features for 20 repeat subjects (longitudinal measurement)<br/>
+'all_subj_features_R_PPG'- PPG features for 20 repeat subjects (longitudinal measurement)<br/>
 
-Each .mat file contains the same variables:
+Each .mat file contains the same variables:<br/>
 
-X - features over time for each subject
-Y - BP over time for each subject
-t_all_subject - timing of each pulse for each subject
+X - features over time for each subject<br/>
+Y - BP over time for each subject<br/>
+t_all_subject - timing of each pulse for each subject<br/>
 
-The .mat files for the longitudingal measurement also contain the data for the second measurement:
+The .mat files for the longitudingal measurement also contain the data for the second measurement:<br/>
 
-X_R - features during second measurement 
-Y_R - BP during second measurement 
-t_r_all_subject - timing of each pulse during second measurement
+X_R - features during second measurement <br/>
+Y_R - BP during second measurement <br/>
+t_r_all_subject - timing of each pulse during second measurement<br/>
 
-Hyperparameter files: 
-best_params_30.npy- hyperparameters for all 30 subjects, BFi + PPG features, SBP
-best_params_30_PPG.npy- hyperparameters for all 30 subjects, PPG features, SBP
-best_params_30_dbp.npy- hyperparameters for all 30 subjects, BFi + PPG features, DBP
-best_params_30_PPG_dbp.npy- hyperparameters for all 30 subjects, PPG features, DBP
-best_params_cold.npy- hyperparameters for cold pressor subjects, BFi + PPG features, SBP
-best_params_cold_dbp.npy- hyperparameters for cold pressor subjects, BFi + PPG features, DBP
-best_params_cold_PPG.npy- hyperparameters for cold pressor subjects, PPG features, SBP
-best_params_cold_PPG_dbp.npy- hyperparameters for cold pressor subjects, PPG features, DBP
+Hyperparameter files: <br/>
+best_params_30.npy- hyperparameters for all 30 subjects, BFi + PPG features, SBP<br/>
+best_params_30_PPG.npy- hyperparameters for all 30 subjects, PPG features, SBP<br/>
+best_params_30_dbp.npy- hyperparameters for all 30 subjects, BFi + PPG features, DBP<br/>
+best_params_30_PPG_dbp.npy- hyperparameters for all 30 subjects, PPG features, DBP<br/>
+best_params_cold.npy- hyperparameters for cold pressor subjects, BFi + PPG features, SBP<br/>
+best_params_cold_dbp.npy- hyperparameters for cold pressor subjects, BFi + PPG features, DBP<br/>
+best_params_cold_PPG.npy- hyperparameters for cold pressor subjects, PPG features, SBP<br/>
+best_params_cold_PPG_dbp.npy- hyperparameters for cold pressor subjects, PPG features, DBP<br/>
